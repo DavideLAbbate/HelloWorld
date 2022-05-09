@@ -96,9 +96,55 @@ input, select {
 /* My Code */
 
 .header {
-    padding: 60px;
+    padding: 25px;
     text-align: center;
     background: #1abc9c;
     color: white;
     font-size: 30px;
 }
+.header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;    
+}
+.header p {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: lightblue;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+li {
+    text-align: center;
+    padding : 25px;    
+}
+a.button2{
+    display: block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:400;
+    color: black;
+    text-align:center;
+    transition: all 0.15s;
+    }
+    a.button2:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+    }
+    a.button2:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+    }
+    
+    
